@@ -2,7 +2,7 @@
 // Digital Output - Button
 
 // constants won't change.
-const int buttonPin = 12;     // Button pin
+const int buttonPin = 2;     // Button pin
 const int ledPin = 13;        // LED pin
 
 // variables will change:

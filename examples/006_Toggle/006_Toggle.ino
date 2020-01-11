@@ -2,7 +2,7 @@
 // Digital Output - Toggle
 
 // this constant won't change:
-const int  buttonPin = 12;   // the pin that the pushbutton is attached to
+const int  buttonPin = 2;   // the pin that the pushbutton is attached to
 const int ledPin = 13;       // the pin that the LED is attached to
 
 // Variables will change:

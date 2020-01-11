@@ -5,7 +5,7 @@ void setup() {
   // put your setup code here, to run once:
   
   pinMode(13, OUTPUT);          // initialize digital pin 13 as an output.
-  digitalWrite(13, LOW);       // turn the LED on (HIGH) or off (LOW) 
+  digitalWrite(13, HIGH);       // turn the LED on (HIGH) or off (LOW) 
 }
 
 void loop() {

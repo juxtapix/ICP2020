@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  Serial.println( w );      // print to console
+  Serial.println( x );      // print to console
   
   delay(10);                // delay in between for readability
 }
