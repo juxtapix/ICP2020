@@ -2,9 +2,9 @@
 // Digital Output - RGB
 
 // constant for RGB LED pins
-const int rPin = 2;
+const int rPin = 5;
 const int gPin = 3;
-const int bPin = 5;
+const int bPin = 2;
 
 void setup() {
   // put your setup code here, to run once:
