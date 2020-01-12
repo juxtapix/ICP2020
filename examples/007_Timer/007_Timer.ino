@@ -33,15 +33,13 @@ void loop() {
       buttonState = HIGH;
     }
     time = millis();
-    digitalWrite(ledPin, buttonState);
-    lastButtonState = buttonState;
-    shutOff();
+    
+    digitalWrite(ledPin, buttonState);    // Turn LED ON
+    lastButtonState = buttonState;        // Update Button State
+    delay(3000);                          // wait for 3 seconds
+    buttonState = LOW;                    // Change Button state to OFF (LOW)
+    digitalWrite(ledPin, buttonState);    // Turn LED OFF
+    lastButtonState = buttonState;         // Update Button State
+    
   }
-}
-
-void shutOff() {
-  delay(3000);          // wait for 3 seconds
-  buttonState = LOW;
-  digitalWrite(ledPin, buttonState);
-  lastButtonState = buttonState;
 }

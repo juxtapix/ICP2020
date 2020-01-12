@@ -24,6 +24,7 @@ void loop() {
   delay(1000);
 }
 
+// This is a Function that expect 3 values (R, G, B)
 void rgb(int r, int g, int b){
   analogWrite(rPin, r);
   analogWrite(gPin, g);
