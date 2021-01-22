@@ -1,1 +1,1 @@
-# ICP2020
+# Make it Interactive : An Arduino workshop for Artists
