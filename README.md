@@ -1,1 +1,2 @@
-# Make it Interactive : An Arduino workshop for Artists
+# Make it Interactive
+### An Arduino workshop for Artists
