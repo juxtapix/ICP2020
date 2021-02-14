@@ -9,7 +9,7 @@ int pos;
 
 void setup() {
   Serial.begin(9600);         // opens serial port, sets data rate to 9600 bps
-  myservo.attach(9);          // attaches the servo on pin 9 to the servo object
+  myservo.attach(10);          // attaches the servo on pin 10 to the servo object
 }
 
 void loop() {
